@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mario item calc</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>Item Simulator</h1>
+  <hr>
+  <h2>How to determine your item</h2>
+  <p>Input your current position and press the "get item" button</p>
+
+  <p>Your current position:<input id="position" type="text"><span id="invalid"></span></p>
+  <p>run program <input id="times" type="text"> times<button id="customNum">initiate</button></p>
+
+<button id="getItem">Get Item</button>
+<button id="getbill">Get ten Bill</button>
+<button id="five">Run 5 times</button>
+
+  <hr>
+  <p id="output">your item is....</p>
+  <img id="mainImg" src= "images/download.jfif">
+  <p id="itemWord"></p>
+  <p>
+    <strong>TOTALS -> </strong>
+    Banana: <span id="banana">0</span> |
+    Bullet Bill: <span id="bill">0</span> |
+    Golden Mushroom: <span id="gold">0</span> |
+    Green Shell: <span id="shell">0</span> |
+    Star: <span id="star">0</span> |<br>
+    "rounds":<span id="total">0</span>
+  </p>
+  <script src="main.js"></script>
+</body>
+
+</html>
